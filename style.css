@@ -49,14 +49,6 @@ header{
 }
 
 .Line-text {
-    display: flex;
-    width: auto;
-    height: 0px;
-    margin-top: 15px;
-    margin-left: 100px;
-}
-
-.Line-text a{
     position: relative;
     z-index: -1;
     display: flex;
@@ -68,17 +60,17 @@ header{
     font-size: 40px;
     font-weight: 600;
     text-align: left;
-    margin: 0px -20px 0px -20px;
-    
+    margin: 20px -20px 0px 20px;
 }
 
-.Line-text a div{
+.Underline{
     position: absolute;
     width: 0px;
     height: 8px;
     background-color: #85A3BF;
     border-radius: 4px;
     transition: 0.5s;
+    margin: 0px 0px 0px -60px;
 }
 
 .Line-circle div:hover .Underline{
@@ -99,7 +91,7 @@ header{
     width: auto;
     height: auto;
 }
-.Line-circle div{
+.circle{
     border:solid 15px #FFFFFF;
     border-radius: 15px;
     width: 0px;
@@ -107,9 +99,9 @@ header{
     margin: 0px 107px 0px 100px;
 }
 
-.Line-info div a::before{
+/* .Line-info div a::before{
     content: "●";
     color: #FFFFFF;
     font-size: 30px;
     letter-spacing: 1.2em;
-}
+} */
