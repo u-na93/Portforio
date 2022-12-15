@@ -1,0 +1,36 @@
+.maincontent{
+    width: auto;
+    max-width: 1200px;
+    margin: 70px auto 0px auto;
+    padding: 0px 20%;
+}
+
+.maincontent > div{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px;
+    border-top: solid 2px #3c3c3cdc;
+}
+
+#Skill h5{
+    margin: 1% 0%;
+}
+
+#Works ul{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 0px;
+}
+
+#Station{
+    flex-wrap: wrap;
+}
+
+#Works ul div img{
+    max-width: 250px;
+    max-height: 250px;
+    width: auto;
+    height: auto;
+    margin: 5px;
+}
