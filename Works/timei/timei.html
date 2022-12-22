@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地名ジェネレーター</title>
+    <script src="timei.js"></script>
+</head>
+<body>
+    <div class="div_1">
+        <h1 class="h1_1">地名ジェネレーター</h1>
+    </div>
+    <div id="main-content">
+    <div>
+    <h4>ランダムに漢字を並べて地名っぽくします</h4>
+    <form id="form" action="">
+        <p>文字指定：<input id="Text" type="text" maxlength="2" value=""></p>
+        <p id="p_3">指定した文字の場所
+            <input type="radio" name="kotei" id="front">
+            <label for="mae" class="radio">前</label>
+            <input type="radio" name="kotei" checked="checked">
+            <label for="usiro" class="radio">後ろ</label>
+        </p>
+    </form>
+    <section>
+        <a href="javascript:Placename();" class="btn-square"><span>生成</span></a>
+    </section>
+    <div id="Div"></div>
+    </div>
+    <div id="About">
+        <h1>About</h1>
+        <h3>制作期間 : 約4ヶ月（2021.5〜）</h3>
+        <h3>使用技術 : JS</h3>
+        <h3>高校生になって初めての作品です。</h3>
+        <h3>街づくりゲームなどで地名を考えるのが</h3>
+        <h3>めんどくさくなり作成しました。</h3>
+        <h3>リアルな地名を生成するのに後ろ文字を固定するなど工夫しています。</h3>
+    </div>
+    </div>
+    <link rel="stylesheet" href="timei.css">
+</body>
+</html>
