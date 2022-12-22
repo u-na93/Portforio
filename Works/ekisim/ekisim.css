@@ -31,7 +31,7 @@ img{
 }
 
 #About{
-    padding: 5px;
+    padding: 3%;
     background-color: #9f8f78;
     border-right: solid 10px #faeb4a;
     border-left: solid 10px #faeb4a;
@@ -79,7 +79,7 @@ img{
     width: 90%;
     height: 90%;
     margin: 5px;
-    padding: 25px;
+    padding: 3%;
     background-color: #5C5C5C;
     border-radius: 5px;
 }
@@ -95,7 +95,7 @@ img{
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 7px;
+    padding: 3%;
     margin: 10px;
     background-color: #5C5C5C;
     border-radius: 5px;
